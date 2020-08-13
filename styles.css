@@ -1,0 +1,119 @@
+/* Theme Colors: #6C89BD #F6D5E6 */
+@media(max-width:771px) {
+    .heading h1 {
+        font-size: 30px;
+    }
+}
+
+body {
+	background-color: #F6D5E6;
+	color: #6C89BD;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+h1 {
+	font-size: 3rem;
+	font-weight: 900;
+	padding: 10% 15% 7%;
+}
+
+hr {
+	background: #6C89BD;
+	border: none;
+	border-radius: 10px;
+	height: 5px;
+	width: 60%;
+}
+
+p {
+	font-weight: 400;
+}
+
+footer {
+	height: 25px;
+	width: 100%;
+	position: absolute;
+}
+
+/* IDs and Classes */
+/* ******************** */
+
+.logo {
+	height: 100px;
+	width: 100px;
+}
+
+/* Title Section */
+.heading {
+	line-height: 1.5;
+	padding: 0 7%;
+	text-align: center;
+}
+
+.about {
+	font-size: 1.5rem;
+	padding-bottom: 10%;
+	padding-top: 20%;
+}
+
+.carousel-item {
+	padding-bottom: 5%;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.caro-img {
+	border-radius: 100%;
+	height: auto;
+	margin-bottom: 10%;
+	margin-top: 4%;
+	width: 400px;
+}
+
+
+#team {
+	align-content: center;
+	padding-bottom: 100px;
+}
+
+.ig-img {
+	height: 32px;
+	widows: 32px;
+}
+
+
+/* Products Page */
+.carousel-caption {
+	position: static;
+}
+
+.card {
+	margin: 5%;
+}
+
+.card-body {
+	text-align: left;
+}
+
+.caption {
+	color: #6C89BD;
+	margin-top: 0px;
+	font-size: 25px;
+}
+
+#products {
+	padding-bottom: 75px;
+}
+
+
+#contact {
+	padding-bottom: 50px;
+}
+
+html {
+	scroll-behavior: smooth;
+}
